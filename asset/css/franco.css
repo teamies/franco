@@ -56,11 +56,13 @@ header {
 .header-name{
     width: 27.5%;
 }
-.header-name h3{
+.header-name a{
     font-size: 20px;
     font-weight: 700;
     border: 2px solid black;
     display: inline;
+    color: #000;
+    text-decoration: none;
     letter-spacing: 4.5px;
     padding: 6px 15px;
 }
@@ -93,12 +95,17 @@ header {
 }
 
 .header-link{
-    width: 25%;
+    width: 27.5%;
     display: block;
     text-align: right;
     /* border: 1px solid rebeccapurple; */
 }
 .header-link a{
+    margin: auto 0;
+    margin-left: 30px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: right;
     font-weight: bold;
     color: black;
     text-decoration: none;
@@ -229,6 +236,10 @@ section{
 .PRODUCTS-col{
     position: relative;
 }
+.PRODUCTS-col a{
+    color: #000;
+    text-decoration: none;
+}
 .col-btn button{
     position: absolute;
     bottom: 21%;
@@ -323,6 +334,10 @@ span{
     position: relative;
     margin: 48px 0;
     width: calc(33.33% - 20px);
+}
+.post-col a{
+    color: #000;
+    text-decoration: none;
 }
 .col-img-text{
     font-size: 14px;
@@ -462,7 +477,7 @@ footer hr{
     .header-menu {
         width: 56%;
     }
-    .header-name h3 {
+    .header-name a {
         font-size: 12px;
         font-weight: 700;
         letter-spacing: 2.5px;
@@ -617,7 +632,7 @@ footer hr{
     .header-menu {
         width: 60%;
     }
-    .header-name h3 {
+    .header-name a {
         font-size: 10px;
         font-weight: 700;
         letter-spacing: 1px;
@@ -822,7 +837,7 @@ footer hr{
         width: 30%;
         order: 1;
     }
-    .header-name h3 {
+    .header-name a {
         font-size: 10px;
         font-weight: 700;
         letter-spacing: 1px;
